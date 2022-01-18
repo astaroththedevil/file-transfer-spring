@@ -28,7 +28,7 @@ public class ImageModel {
     private String type;
 
     @Lob
-    @Column(name = "picByte", length = 1000)
+    @Column(name = "picByte", length = 20971520)
     private byte[] picByte;
 
     public String getName() {
